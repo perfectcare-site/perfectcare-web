@@ -1,15 +1,26 @@
-김해 대동산단 작업사례 모바일 사진 잘림 수정
+양산 증산 병원 바닥박리 청소 홈페이지 업로드 방법
 
-1. ZIP 압축을 풉니다.
-2. GitHub의 perfectcare-web 저장소로 들어갑니다.
+1. ZIP 파일 압축을 풉니다.
+2. GitHub에서 perfectcare-web 저장소로 들어갑니다.
 3. Add file → Upload files를 누릅니다.
-4. 압축을 푼 폴더 안의 works 폴더를 업로드합니다.
-5. 기존 works/gimhae-daedong-regular-cleaning/index.html 파일이 수정됩니다.
-6. Commit changes를 누릅니다.
-7. 1~3분 뒤 모바일에서 페이지를 새로고침합니다.
+4. 압축을 푼 폴더 안의 아래 항목을 모두 업로드 화면으로 끌어다 놓습니다.
+   - index.html
+   - sitemap.xml
+   - works 폴더
+   - assets 폴더
+5. Commit changes를 누릅니다.
+6. GitHub Pages 반영까지 1~3분 정도 기다립니다.
+7. 아래 주소를 열어 확인합니다.
+   https://perfectcareclean.com/works/yangsan-jeungsan-hospital-floor-stripping/
+8. 모바일에서도 사진이 잘리지 않고 전체가 보이는지 확인합니다.
+9. 네이버 서치어드바이저 URL 검사에서 새 페이지 주소를 검사한 뒤 수집 요청합니다.
 
-수정 내용
-- 본문 사진의 1:1 강제 비율 제거
-- 대표 사진의 16:9 강제 비율 제거
-- 사진 원본 비율 그대로 표시
-- 모바일에서도 width 100%, height auto로 전체 사진 표시
+이번 업데이트
+- 양산 증산 병원 바닥박리 청소 상세 작업사례 추가
+- 청소 전 8장 / 작업 중 9장 / 청소 후 9장, 총 26장 반영
+- 모든 사진 WebP 최적화
+- 모바일 사진 잘림 방지: 원본 비율 유지
+- 메인 홈페이지 병원 작업사례 카드 연결
+- 작업사례 목록의 병원 카드 연결
+- sitemap.xml 새 URL 추가
+- 기존 김해 대동산단 작업사례 수정 내용 유지
