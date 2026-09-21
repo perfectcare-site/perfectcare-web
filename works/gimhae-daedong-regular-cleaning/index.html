@@ -22,17 +22,17 @@
 .case-meta{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0 0}
 .case-meta span{background:var(--primary-soft);color:var(--primary);font-weight:800;padding:7px 12px;border-radius:999px;font-size:13px}
 .case-hero{margin-top:34px;overflow:hidden;border-radius:22px;box-shadow:var(--shadow)}
-.case-hero img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.case-hero img{display:block;width:100%;height:auto;object-fit:contain}
 .case-section{margin-top:54px}
 .case-section h2{font-size:30px;letter-spacing:-.03em;margin:0 0 16px}
 .case-section p{color:var(--muted);font-size:17px}
 .photo-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:24px}
 .case-photo{margin:0;overflow:hidden;border:1px solid var(--line);border-radius:18px;background:#fff}
-.case-photo img{width:100%;aspect-ratio:1/1;object-fit:cover}
+.case-photo img{display:block;width:100%;height:auto;object-fit:contain;background:#fff}
 .case-photo figcaption{padding:12px 14px;color:var(--muted);font-size:14px}
 .case-note{margin-top:28px;padding:22px 24px;background:var(--primary-soft);border-left:4px solid var(--primary);border-radius:12px;color:var(--text)}
 .case-nav{display:flex;gap:12px;flex-wrap:wrap;margin-top:44px}
-@media(max-width:700px){.photo-grid{grid-template-columns:1fr}.case-section h2{font-size:26px}}
+@media(max-width:700px){.photo-grid{grid-template-columns:1fr}.case-section h2{font-size:26px}.case-photo img,.case-hero img{width:100%;height:auto;aspect-ratio:auto;object-fit:contain}}
 </style>
 <script type="application/ld+json">
 {

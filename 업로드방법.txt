@@ -1,21 +1,15 @@
-김해 대동산단 정기청소 작업사례 업로드 방법
+김해 대동산단 작업사례 모바일 사진 잘림 수정
 
-1. 이 ZIP 파일의 압축을 풉니다.
-2. GitHub의 perfectcare-web 저장소로 이동합니다.
+1. ZIP 압축을 풉니다.
+2. GitHub의 perfectcare-web 저장소로 들어갑니다.
 3. Add file → Upload files를 누릅니다.
-4. 압축을 푼 폴더 안의 다음 항목을 GitHub 업로드 화면으로 끌어다 놓습니다.
-   - index.html
-   - sitemap.xml
-   - works 폴더
-   - assets 폴더
-5. 같은 이름의 기존 파일은 수정 파일로 처리됩니다.
+4. 압축을 푼 폴더 안의 works 폴더를 업로드합니다.
+5. 기존 works/gimhae-daedong-regular-cleaning/index.html 파일이 수정됩니다.
 6. Commit changes를 누릅니다.
-7. 1~3분 뒤 https://perfectcareclean.com/works/gimhae-daedong-regular-cleaning/ 주소를 확인합니다.
-8. Ctrl + F5로 새로고침합니다.
+7. 1~3분 뒤 모바일에서 페이지를 새로고침합니다.
 
-이번 업데이트 내용
-- 김해 대동산단 정기청소 상세페이지 추가
-- 실제 사진 15장 WebP 최적화
-- 작업사례 목록 페이지에 상세페이지 링크 추가
-- 메인 홈페이지 김해 대동산단 작업사례 카드에 링크 추가
-- sitemap.xml에 새 URL 추가
+수정 내용
+- 본문 사진의 1:1 강제 비율 제거
+- 대표 사진의 16:9 강제 비율 제거
+- 사진 원본 비율 그대로 표시
+- 모바일에서도 width 100%, height auto로 전체 사진 표시
