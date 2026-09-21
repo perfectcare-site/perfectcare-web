@@ -1,0 +1,16 @@
+퍼펙트케어 홈페이지 배포 안내
+
+1. GitHub의 perfectcare-web 저장소에서 Upload files를 누릅니다.
+2. 이 폴더 안의 내용 전체를 선택해 업로드합니다.
+   about / areas / assets / contact / services / works / 404.html / index.html / robots.txt / sitemap.xml / site.webmanifest
+3. Commit changes를 누릅니다.
+4. Settings > Pages로 이동합니다.
+5. Source에서 Deploy from a branch를 선택합니다.
+6. Branch는 main, 폴더는 /(root)로 설정하고 Save를 누릅니다.
+7. 임시 GitHub Pages 주소에서 사이트가 정상 표시되는지 먼저 확인합니다.
+8. 정상 확인 후 perfectcareclean.com 도메인을 연결합니다.
+
+참고:
+- 현재 사이트는 이미지 파일이 없어도 깨지지 않도록 제작했습니다.
+- 상단 로고는 임시 텍스트형 로고입니다.
+- 실제 퍼펙트케어 로고/현장사진은 나중에 assets/images 폴더에 추가해 교체할 수 있습니다.
