@@ -40,7 +40,7 @@ img{max-width:100%;display:block}
 .btn-primary{background:var(--primary);color:#fff}
 .btn-primary:hover{background:var(--primary-dark)}
 .btn-outline{border-color:currentColor}
-.hero{background:linear-gradient(115deg,rgba(7,57,42,.98),rgba(15,95,70,.91));color:#fff;padding:88px 0}
+.hero{background:linear-gradient(115deg,rgba(19,32,68,.98),rgba(28,45,90,.92));color:#fff;padding:88px 0}
 .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:58px;align-items:center}
 .eyebrow,.kicker{color:var(--accent);font-size:14px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;margin-bottom:12px}
 .hero h1{margin:0 0 22px;font-size:clamp(40px,5vw,64px);line-height:1.15;letter-spacing:-.05em}
