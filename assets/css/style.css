@@ -704,3 +704,11 @@ img{max-width:100%;display:block}
     top:82px !important;
   }
 }
+
+
+/* ===== UNIFY AREA CARD COLORS ===== */
+.area-card,
+.area-card:nth-child(2),
+.area-card:nth-child(3){
+  background:#192650 !important;
+}
