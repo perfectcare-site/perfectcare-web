@@ -1,62 +1,15 @@
-퍼펙트케어 작업사례 폴더 전체 개편본
+작업사례 목록 페이지 복구
 
-이번 개편 구조
-works/
-  regular-cleaning/
-    office/
-      gimhae-daedong-regular-cleaning/
-    academy/
-      yangsan-jeungsan-academy-cleaning/
-    restroom/
-    cafe/
-    hospital/
-    factory/
-    store/
-  deep-cleaning/
-    restroom/
-      yangsan-sanmak-restroom-deep-cleaning/
-    hospital/
-      yangsan-jeungsan-hospital-floor-stripping/
-    office/
-    academy/
-    cafe/
-    factory/
-    store/
-  aircon-cleaning/
-    office/
-    academy/
-    cafe/
-    hospital/
-    factory/
-    store/
-    home/
+이 파일은 /works/ 에 들어가면 마지막 글 하나만 보이는 문제를 수정합니다.
 
 업로드 방법
 1. ZIP 압축을 풉니다.
-2. GitHub의 실제 홈페이지 저장소 perfectcare-web 첫 화면으로 들어갑니다.
-3. Add file → Upload files를 누릅니다.
-4. 압축을 푼 폴더 안의
-   - works 폴더
-   - sitemap.xml
-   두 개를 업로드합니다.
-5. Commit changes를 누릅니다.
-6. 2~5분 정도 기다립니다.
-7. 아래 주소를 먼저 확인합니다.
-   https://perfectcareclean.com/works/
+2. GitHub perfectcare-web 첫 화면에서 Add file → Upload files
+3. 압축을 푼 works 폴더를 그대로 업로드
+4. Commit changes
+5. 1~3분 뒤 https://perfectcareclean.com/works/ 확인
 
-중요
-- 이번 파일은 기존 작업사례를 삭제하지 않고 새 구조를 추가하는 방식입니다.
-- 기존 작업사례 주소에는 새 주소로 이동하는 안내 파일이 들어 있습니다.
-- 새 글을 만들 때부터는 반드시 해당 서비스/업종 폴더 안에 넣습니다.
-- 작업사진도 각 글 폴더 안의 images 폴더에 넣는 방식으로 통일합니다.
-- 기존 홈페이지 메인(index.html)은 건드리지 않습니다. 기존 홈페이지 전체 디자인을 덮어쓰지 않기 위해서입니다.
-
-앞으로 예시
-정기청소 학원:
-works/regular-cleaning/academy/현장폴더/index.html
-
-대청소 화장실:
-works/deep-cleaning/restroom/현장폴더/index.html
-
-에어컨청소 사무실:
-works/aircon-cleaning/office/현장폴더/index.html
+정상 화면
+- 정기청소 / 대청소 / 에어컨청소 카테고리 3개가 보임
+- 최근 작업사례 4개가 카드로 보임
+- 각 카드를 클릭하면 해당 상세 글로 이동
