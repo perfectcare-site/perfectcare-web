@@ -1,0 +1,14 @@
+양산 증산 학원청소 홈페이지 업로드 방법
+
+이번 수정본은 폴더 구조를 바로잡았습니다.
+
+1. ZIP 압축을 풉니다.
+2. GitHub 저장소 perfectcare-web의 가장 첫 화면(루트)으로 들어갑니다.
+3. Add file → Upload files를 누릅니다.
+4. 압축을 푼 폴더 안의 works 폴더를 통째로 업로드합니다.
+5. Commit changes를 누릅니다.
+6. 업로드 후 perfectcare-web → works 안에 yangsan-jeungsan-academy-cleaning 폴더가 생겼는지 확인합니다.
+7. 그 폴더 안에는 index.html 과 images 폴더가 있어야 합니다.
+8. 페이지 주소: https://perfectcareclean.com/works/yangsan-jeungsan-academy-cleaning/
+
+중요: index.html 파일을 works 바로 아래에 올리면 안 됩니다. 반드시 yangsan-jeungsan-academy-cleaning 폴더 안에 있어야 합니다.
