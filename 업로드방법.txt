@@ -1,26 +1,62 @@
-양산 증산 병원 바닥박리 청소 홈페이지 업로드 방법
+퍼펙트케어 작업사례 폴더 전체 개편본
 
-1. ZIP 파일 압축을 풉니다.
-2. GitHub에서 perfectcare-web 저장소로 들어갑니다.
+이번 개편 구조
+works/
+  regular-cleaning/
+    office/
+      gimhae-daedong-regular-cleaning/
+    academy/
+      yangsan-jeungsan-academy-cleaning/
+    restroom/
+    cafe/
+    hospital/
+    factory/
+    store/
+  deep-cleaning/
+    restroom/
+      yangsan-sanmak-restroom-deep-cleaning/
+    hospital/
+      yangsan-jeungsan-hospital-floor-stripping/
+    office/
+    academy/
+    cafe/
+    factory/
+    store/
+  aircon-cleaning/
+    office/
+    academy/
+    cafe/
+    hospital/
+    factory/
+    store/
+    home/
+
+업로드 방법
+1. ZIP 압축을 풉니다.
+2. GitHub의 실제 홈페이지 저장소 perfectcare-web 첫 화면으로 들어갑니다.
 3. Add file → Upload files를 누릅니다.
-4. 압축을 푼 폴더 안의 아래 항목을 모두 업로드 화면으로 끌어다 놓습니다.
-   - index.html
-   - sitemap.xml
+4. 압축을 푼 폴더 안의
    - works 폴더
-   - assets 폴더
+   - sitemap.xml
+   두 개를 업로드합니다.
 5. Commit changes를 누릅니다.
-6. GitHub Pages 반영까지 1~3분 정도 기다립니다.
-7. 아래 주소를 열어 확인합니다.
-   https://perfectcareclean.com/works/yangsan-jeungsan-hospital-floor-stripping/
-8. 모바일에서도 사진이 잘리지 않고 전체가 보이는지 확인합니다.
-9. 네이버 서치어드바이저 URL 검사에서 새 페이지 주소를 검사한 뒤 수집 요청합니다.
+6. 2~5분 정도 기다립니다.
+7. 아래 주소를 먼저 확인합니다.
+   https://perfectcareclean.com/works/
 
-이번 업데이트
-- 양산 증산 병원 바닥박리 청소 상세 작업사례 추가
-- 청소 전 8장 / 작업 중 9장 / 청소 후 9장, 총 26장 반영
-- 모든 사진 WebP 최적화
-- 모바일 사진 잘림 방지: 원본 비율 유지
-- 메인 홈페이지 병원 작업사례 카드 연결
-- 작업사례 목록의 병원 카드 연결
-- sitemap.xml 새 URL 추가
-- 기존 김해 대동산단 작업사례 수정 내용 유지
+중요
+- 이번 파일은 기존 작업사례를 삭제하지 않고 새 구조를 추가하는 방식입니다.
+- 기존 작업사례 주소에는 새 주소로 이동하는 안내 파일이 들어 있습니다.
+- 새 글을 만들 때부터는 반드시 해당 서비스/업종 폴더 안에 넣습니다.
+- 작업사진도 각 글 폴더 안의 images 폴더에 넣는 방식으로 통일합니다.
+- 기존 홈페이지 메인(index.html)은 건드리지 않습니다. 기존 홈페이지 전체 디자인을 덮어쓰지 않기 위해서입니다.
+
+앞으로 예시
+정기청소 학원:
+works/regular-cleaning/academy/현장폴더/index.html
+
+대청소 화장실:
+works/deep-cleaning/restroom/현장폴더/index.html
+
+에어컨청소 사무실:
+works/aircon-cleaning/office/현장폴더/index.html
