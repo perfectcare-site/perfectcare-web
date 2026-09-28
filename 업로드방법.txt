@@ -1,15 +1,28 @@
-작업사례 목록 페이지 복구
+[업로드 방법]
 
-이 파일은 /works/ 에 들어가면 마지막 글 하나만 보이는 문제를 수정합니다.
+이번 파일은 퍼펙트케어 홈페이지 현재 구조에 맞춰
+정기청소 → 현장폴더 방식으로 제작했습니다.
 
-업로드 방법
+새 글 위치
+works/regular-cleaning/yangsan-seokgye-office/index.html
+
+사진 위치
+works/regular-cleaning/yangsan-seokgye-office/images/
+
 1. ZIP 압축을 풉니다.
-2. GitHub perfectcare-web 첫 화면에서 Add file → Upload files
-3. 압축을 푼 works 폴더를 그대로 업로드
-4. Commit changes
-5. 1~3분 뒤 https://perfectcareclean.com/works/ 확인
+2. 안에 있는 UPLOAD_THIS 폴더를 엽니다.
+3. GitHub의 실제 홈페이지 저장소 perfectcare-web 첫 화면으로 들어갑니다.
+4. Add file → Upload files를 누릅니다.
+5. UPLOAD_THIS 안의 works 폴더를 통째로 올립니다.
+6. Commit changes를 누릅니다.
+7. 2~5분 후 아래 주소를 확인합니다.
+   https://perfectcareclean.com/works/regular-cleaning/yangsan-seokgye-office/
+8. 작업사례 목록도 확인합니다.
+   https://perfectcareclean.com/works/
+9. 마지막으로 네이버 서치어드바이저에서 새 글 주소를 수집 요청합니다.
 
-정상 화면
-- 정기청소 / 대청소 / 에어컨청소 카테고리 3개가 보임
-- 최근 작업사례 4개가 카드로 보임
-- 각 카드를 클릭하면 해당 상세 글로 이동
+중요
+- ZIP 파일 자체를 GitHub에 올리지 마세요.
+- UPLOAD_THIS 안의 works 폴더를 올려야 합니다.
+- 상세 글 사진은 모바일에서 잘리지 않도록 원본 비율 유지로 설정했습니다.
+- 이번 작업사례 목록 index.html에는 기존 4개 글 + 새 석계산단 글까지 총 5개가 클릭되도록 넣었습니다.
