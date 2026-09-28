@@ -1,14 +1,28 @@
-양산 증산 학원청소 홈페이지 업로드 방법
+[업로드 방법]
 
-이번 수정본은 폴더 구조를 바로잡았습니다.
+이번 파일은 퍼펙트케어 홈페이지 현재 구조에 맞춰
+정기청소 → 현장폴더 방식으로 제작했습니다.
+
+새 글 위치
+works/regular-cleaning/yangsan-seokgye-office/index.html
+
+사진 위치
+works/regular-cleaning/yangsan-seokgye-office/images/
 
 1. ZIP 압축을 풉니다.
-2. GitHub 저장소 perfectcare-web의 가장 첫 화면(루트)으로 들어갑니다.
-3. Add file → Upload files를 누릅니다.
-4. 압축을 푼 폴더 안의 works 폴더를 통째로 업로드합니다.
-5. Commit changes를 누릅니다.
-6. 업로드 후 perfectcare-web → works 안에 yangsan-jeungsan-academy-cleaning 폴더가 생겼는지 확인합니다.
-7. 그 폴더 안에는 index.html 과 images 폴더가 있어야 합니다.
-8. 페이지 주소: https://perfectcareclean.com/works/yangsan-jeungsan-academy-cleaning/
+2. 안에 있는 UPLOAD_THIS 폴더를 엽니다.
+3. GitHub의 실제 홈페이지 저장소 perfectcare-web 첫 화면으로 들어갑니다.
+4. Add file → Upload files를 누릅니다.
+5. UPLOAD_THIS 안의 works 폴더를 통째로 올립니다.
+6. Commit changes를 누릅니다.
+7. 2~5분 후 아래 주소를 확인합니다.
+   https://perfectcareclean.com/works/regular-cleaning/yangsan-seokgye-office/
+8. 작업사례 목록도 확인합니다.
+   https://perfectcareclean.com/works/
+9. 마지막으로 네이버 서치어드바이저에서 새 글 주소를 수집 요청합니다.
 
-중요: index.html 파일을 works 바로 아래에 올리면 안 됩니다. 반드시 yangsan-jeungsan-academy-cleaning 폴더 안에 있어야 합니다.
+중요
+- ZIP 파일 자체를 GitHub에 올리지 마세요.
+- UPLOAD_THIS 안의 works 폴더를 올려야 합니다.
+- 상세 글 사진은 모바일에서 잘리지 않도록 원본 비율 유지로 설정했습니다.
+- 이번 작업사례 목록 index.html에는 기존 4개 글 + 새 석계산단 글까지 총 5개가 클릭되도록 넣었습니다.
