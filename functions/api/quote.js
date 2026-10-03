@@ -1,4 +1,4 @@
-const SERVICE_NAMES={regular:"정기청소",deep:"일회성 대청소",aircon:"에어컨 분해청소",construction:"준공청소",window:"유리창청소",stair:"계단청소"};
+const SERVICE_NAMES={regular:"정기청소",deep:"일회성 대청소",aircon:"에어컨 분해청소",construction:"준공청소",window:"유리창청소",stair:"계단청소",other:"기타"};
 const BUSINESS_NAMES={office:"사무실",factory:"공장",restroom:"화장실",academy:"학원",hospital:"병원·의원",cafe:"카페",store:"상가",screen:"스크린골프장",gym:"헬스장",shower:"샤워실",locker:"탈의실",bathhouse:"목욕탕"};
 function response(data,status=200){return new Response(JSON.stringify(data),{status,headers:{"content-type":"application/json; charset=utf-8","cache-control":"no-store"}})}
 function phoneOnly(v){return String(v||"").replace(/\D/g,"")}
