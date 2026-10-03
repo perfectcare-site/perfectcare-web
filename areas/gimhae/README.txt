@@ -1,18 +1,13 @@
-김해 누락 6개 지역 직접 업로드용
+김해 세부지역 추가 페이지 1차 업로드용
 
-GitHub에서:
+포함 지역:
+서상동, 봉황동, 내동, 외동, 대성동, 삼계동, 구산동, 흥동, 풍유동, 명법동
+
+업로드 위치:
 perfectcare-web > areas > gimhae
-까지 들어간 뒤 아래 6개 폴더를 업로드하세요.
-
-naewoe
-buwon
-bukbu
-jangyu1
-jangyu2
-jangyu3
 
 중요:
-압축파일 자체를 올리지 말고 먼저 압축을 푼 뒤,
-위 6개 폴더를 areas/gimhae 안에 넣어야 합니다.
-
-각 폴더 안에는 index.html이 들어 있습니다.
+1. ZIP을 먼저 컴퓨터에서 압축 해제합니다.
+2. 압축을 푼 뒤 나오는 지역 폴더들을 GitHub의 areas/gimhae 안에 올립니다.
+3. ZIP 파일 자체를 GitHub에 올리지 않습니다.
+4. 업로드 후 Cloudflare 배포가 끝난 다음 주소를 확인합니다.
