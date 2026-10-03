@@ -128,7 +128,7 @@ $('estimateBtn').addEventListener('click',()=>{const box=$('estimateResult');box
 $('quoteForm').addEventListener('submit',async e=>{
   e.preventDefault();const btn=$('submitBtn'),box=$('submitResult');btn.disabled=true;btn.textContent='접수 중...';
   try{
-    const r=await fetch('/api/quote',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload())});
+    const r=await fetch('https://plain-frost-ec5cperfectcare-quote.springbreeze72139.workers.dev/',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload())});
     const d=await r.json();if(!r.ok)throw new Error(d.error||'접수 오류');
     box.className='';box.innerHTML='<div class="success"><h3>무료 방문견적 요청이 접수되었습니다.</h3><div>담당자가 확인 후 연락드리겠습니다.</div></div>';
     box.scrollIntoView({behavior:'smooth',block:'center'});
