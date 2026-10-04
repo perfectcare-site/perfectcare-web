@@ -1,0 +1,13 @@
+<!-- 김해 화장실 페이지 3개 추가 -->
+<url>
+  <loc>https://perfectcareclean.com/gimhae-industrial-complex-restroom-cleaning/</loc>
+  <lastmod>2026-10-05</lastmod>
+</url>
+<url>
+  <loc>https://perfectcareclean.com/gimhae-factory-restroom-regular-cleaning/</loc>
+  <lastmod>2026-10-05</lastmod>
+</url>
+<url>
+  <loc>https://perfectcareclean.com/gimhae-business-restroom-cleaning/</loc>
+  <lastmod>2026-10-05</lastmod>
+</url>

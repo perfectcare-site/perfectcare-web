@@ -1,0 +1,22 @@
+퍼펙트케어 홈페이지 업로드 안내
+
+이번 파일은 서로 다른 화장실 3곳을 3페이지로 분리했습니다.
+정확한 현장 세부지역이 확인되지 않아 '주촌 현장', '진례 현장'처럼 임의로 쓰지 않고
+김해 공단·공장·산업단지 키워드로 각각 다르게 구성했습니다.
+
+GitHub 저장소 perfectcare-site/perfectcare-web 의 최상위(root)에 아래 3개 폴더를 각각 올리세요.
+
+1. gimhae-industrial-complex-restroom-cleaning
+2. gimhae-factory-restroom-regular-cleaning
+3. gimhae-business-restroom-cleaning
+
+각 폴더 안에는 index.html과 해당 현장 사진만 들어 있습니다.
+서로 다른 현장 사진은 섞지 않았습니다.
+
+업로드 후 주소:
+https://perfectcareclean.com/gimhae-industrial-complex-restroom-cleaning/
+https://perfectcareclean.com/gimhae-factory-restroom-regular-cleaning/
+https://perfectcareclean.com/gimhae-business-restroom-cleaning/
+
+sitemap.xml에는 sitemap-추가코드-김해화장실3개.txt 내용을 기존 <urlset> 닫는 태그 </urlset> 바로 위에 추가하세요.
+기존 sitemap.xml 내용을 전부 지우면 안 됩니다.
