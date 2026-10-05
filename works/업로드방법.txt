@@ -1,28 +1,35 @@
-[업로드 방법]
+퍼펙트케어 사진 업로드분 전체 페이지 11개
 
-이번 파일은 퍼펙트케어 홈페이지 현재 구조에 맞춰
-정기청소 → 현장폴더 방식으로 제작했습니다.
+[업로드 위치]
+GitHub 저장소 perfectcare-web 안에서 아래 구조로 올립니다.
 
-새 글 위치
-works/regular-cleaning/yangsan-seokgye-office/index.html
+works/
+  regular-cleaning/
+    gimhae-academy-regular-cleaning/
+    gimhae-business-restroom-cleaning/
+    gimhae-sangdong-office-floor-cleaning/
+    gimhae-jillye-office-regular-cleaning/
+    gimhae-hallim-office-floor-machine-cleaning/
+    gimhae-cafe-regular-cleaning/
+    gimhae-industrial-office-floor-care/
+    gimhae-screen-golf-regular-cleaning/
+    gimhae-business-office-regular-cleaning/
+  factory-cleaning/
+    gimhae-factory-floor-cleaning/
+  deep-cleaning/
+    gimhae-restaurant-hood-cleaning/
 
-사진 위치
-works/regular-cleaning/yangsan-seokgye-office/images/
+각 폴더 안의 index.html과 images 폴더를 같이 업로드해야 합니다.
 
-1. ZIP 압축을 풉니다.
-2. 안에 있는 UPLOAD_THIS 폴더를 엽니다.
-3. GitHub의 실제 홈페이지 저장소 perfectcare-web 첫 화면으로 들어갑니다.
-4. Add file → Upload files를 누릅니다.
-5. UPLOAD_THIS 안의 works 폴더를 통째로 올립니다.
-6. Commit changes를 누릅니다.
-7. 2~5분 후 아래 주소를 확인합니다.
-   https://perfectcareclean.com/works/regular-cleaning/yangsan-seokgye-office/
-8. 작업사례 목록도 확인합니다.
-   https://perfectcareclean.com/works/
-9. 마지막으로 네이버 서치어드바이저에서 새 글 주소를 수집 요청합니다.
+[이번 수정]
+1. 김해 학원 정기청소 페이지에 삼계동·내외동·장유·율하·주촌·진영·어방·삼방 등 학원/교육시설 상담 지역 추가
+2. 김해 사업장 화장실 정기청소 페이지에 주촌·대동·상동·진례·한림·생림 등 공단/산단 상담 지역 추가
+3. 업로드한 사진 묶음 중 미사용이던 공장 바닥, 스크린골프장, 음식점 후드, 기업체 사무실 사진까지 모두 페이지화
 
-중요
-- ZIP 파일 자체를 GitHub에 올리지 마세요.
-- UPLOAD_THIS 안의 works 폴더를 올려야 합니다.
-- 상세 글 사진은 모바일에서 잘리지 않도록 원본 비율 유지로 설정했습니다.
-- 이번 작업사례 목록 index.html에는 기존 4개 글 + 새 석계산단 글까지 총 5개가 클릭되도록 넣었습니다.
+[작업사례 목록]
+works-추가카드-11개.html의 카드를 기존 /works/ 페이지 카드 영역에 추가하면 됩니다.
+
+[sitemap]
+sitemap-추가코드-11개.xml은 참고용입니다.
+이번 ZIP 안의 sitemap.xml은 기존 전체 sitemap.xml에 위 11개 URL을 추가한 교체본입니다.
+perfectcare-web/sitemap.xml 내용을 전부 지우고 이 sitemap.xml 내용으로 교체하면 됩니다.
