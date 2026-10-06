@@ -3,56 +3,306 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>회사소개 | 퍼펙트케어</title>
-<meta name="description" content="양산·김해·부산 정기청소 및 에어컨 분해청소 전문 퍼펙트케어 회사소개.">
-<meta name="robots" content="index,follow,max-image-preview:large">
+<title>양산·김해·부산 청소업체 퍼펙트케어 | 정기청소·사무실·화장실·병원·학원·계단청소</title>
+<meta name="description" content="퍼펙트케어는 양산·김해·부산을 중심으로 사업장 정기청소, 사무실청소, 화장실청소, 병원청소, 학원청소, 계단청소와 에어컨 분해청소를 진행합니다. 현장 확인 후 무료 방문견적으로 관리 범위와 주기를 안내합니다.">
+<meta name="robots" content="index,follow">
 <link rel="canonical" href="https://perfectcareclean.com/about/">
-<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
-<link rel="manifest" href="/site.webmanifest">
 <meta property="og:type" content="website">
-<meta property="og:locale" content="ko_KR">
-<meta property="og:site_name" content="퍼펙트케어">
-<meta property="og:title" content="회사소개 | 퍼펙트케어">
-<meta property="og:description" content="양산·김해·부산 정기청소 및 에어컨 분해청소 전문 퍼펙트케어 회사소개.">
+<meta property="og:title" content="양산·김해·부산 청소업체 퍼펙트케어">
+<meta property="og:description" content="정기청소·사무실·화장실·병원·학원·계단청소를 중심으로 사업장 환경에 맞춘 청소 서비스를 제공합니다.">
 <meta property="og:url" content="https://perfectcareclean.com/about/">
-<link rel="stylesheet" href="/assets/css/style.css">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"퍼펙트케어","url":"https://perfectcareclean.com/","telephone":"+82-10-7246-5626","areaServed":["양산","김해","부산"]}</script>
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<style>
+:root{
+  --navy:#1d2e5c;
+  --navy2:#142043;
+  --blue:#315ca8;
+  --soft:#eef3ff;
+  --bg:#f7f8fb;
+  --line:#e6e9ef;
+  --text:#182230;
+  --muted:#667085;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans KR","Malgun Gothic",Arial,sans-serif;color:var(--text);background:#fff}
+.top{background:var(--navy2);color:#fff;font-size:13px;padding:8px 18px;text-align:center}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+.nav{max-width:1120px;margin:auto;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-size:22px;font-weight:900;color:var(--navy);text-decoration:none}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{text-decoration:none;font-size:14px;font-weight:700;color:#344054}
+.hero{background:linear-gradient(180deg,#f8faff 0%,#fff 100%);border-bottom:1px solid var(--line)}
+.hero-inner{max-width:1120px;margin:auto;padding:64px 20px 52px}
+.eyebrow{font-size:13px;font-weight:900;letter-spacing:.11em;color:var(--blue);margin-bottom:12px}
+h1{font-size:44px;line-height:1.25;color:var(--navy2);margin:0 0 18px}
+.hero p{max-width:860px;font-size:18px;line-height:1.9;color:#475467;margin:0}
+.tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:26px}
+.tag{display:inline-block;border:1px solid #d8e2ff;background:#fff;color:var(--navy);padding:8px 12px;border-radius:999px;font-size:13px;font-weight:800}
+main{max-width:1120px;margin:auto;padding:54px 20px 76px}
+.section{margin-top:54px}
+.section:first-child{margin-top:0}
+.section h2{font-size:30px;line-height:1.35;color:var(--navy2);margin:0 0 14px}
+.section>p{font-size:16px;line-height:1.95;color:#475467;margin:0}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:24px}
+.card{border:1px solid var(--line);border-radius:18px;padding:24px;background:#fff;box-shadow:0 7px 22px rgba(17,38,79,.05)}
+.card h3{font-size:20px;color:var(--navy2);margin:0 0 10px}
+.card p{font-size:15px;line-height:1.8;color:var(--muted);margin:0}
+.card a{color:var(--navy);font-weight:800;text-decoration:none}
+.service-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:24px}
+.service{display:block;text-decoration:none;border:1px solid var(--line);border-radius:16px;padding:20px;background:#fff;color:inherit}
+.service strong{display:block;color:var(--navy2);font-size:18px;margin-bottom:8px}
+.service span{font-size:14.5px;line-height:1.75;color:var(--muted)}
+.region{background:var(--soft);border:1px solid #dbe5ff;border-radius:18px;padding:26px;margin-top:24px}
+.region h3{margin:0 0 10px;color:var(--navy2);font-size:21px}
+.region p{margin:0;color:#475467;line-height:1.9}
+.region-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.region-links a{text-decoration:none;background:#fff;border:1px solid #d7def0;color:var(--navy);font-weight:900;padding:10px 14px;border-radius:12px}
+.process{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:24px}
+.step{border-top:4px solid var(--navy);background:#fff;border-left:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line);border-radius:14px;padding:19px}
+.step b{display:block;color:var(--navy);font-size:13px;margin-bottom:8px}
+.step strong{display:block;color:var(--navy2);font-size:17px;margin-bottom:7px}
+.step span{font-size:14px;line-height:1.7;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:24px}
+.stat{border-radius:18px;background:var(--navy2);color:#fff;padding:24px}
+.stat strong{display:block;font-size:28px;margin-bottom:8px}
+.stat span{font-size:14px;line-height:1.75;color:#dfe5f4}
+.cta{margin-top:58px;background:var(--navy2);color:#fff;border-radius:20px;padding:32px 28px}
+.cta h2{margin:0 0 10px;font-size:28px}
+.cta p{margin:0 0 20px;color:#e6eaf3;line-height:1.85}
+.buttons{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;text-decoration:none;font-weight:900;border-radius:12px;padding:13px 17px}
+.btn.primary{background:#fff;color:var(--navy2)}
+.btn.ghost{border:1px solid rgba(255,255,255,.45);color:#fff}
+footer{background:var(--navy2);color:#fff;padding:28px 20px;text-align:center;font-size:13px}
+@media(max-width:860px){
+  .grid3,.service-grid,.stats{grid-template-columns:1fr 1fr}
+  .process{grid-template-columns:1fr 1fr}
+}
+@media(max-width:620px){
+  .nav{flex-direction:column;align-items:flex-start}
+  h1{font-size:33px}
+  .hero-inner{padding:45px 16px 38px}
+  main{padding:40px 16px 58px}
+  .grid3,.service-grid,.stats,.process{grid-template-columns:1fr}
+}
+</style>
 </head>
 <body>
-<a class="skip" href="#main">본문 바로가기</a>
-<div class="topbar"><div class="container"><span>양산 · 김해 · 부산 사업장 청소 및 에어컨 분해청소</span><span>청소문의 010-7246-5626</span></div></div>
-<header class="header">
-<div class="container nav">
-<a class="brand" href="/" aria-label="퍼펙트케어 홈"><img class="brand-logo-img" src="/assets/images/perfectcare-logo.jpg" alt="퍼펙트케어 로고"></a>
-<button class="menu-toggle" aria-label="메뉴 열기" aria-expanded="false">☰</button>
-<nav class="menu" aria-label="주요 메뉴">
-<a href="/services/">서비스</a>
-<a href="/areas/yangsan/">양산</a>
-<a href="/areas/gimhae/">김해</a>
-<a href="/areas/busan/">부산</a>
-<a href="/works/">작업사례</a>
-<a href="/about/">회사소개</a>
-<a href="/contact/">문의</a>
-</nav>
-<a class="btn btn-primary" href="tel:01072465626">전화 상담</a>
-</div>
+<div class="top">양산 · 김해 · 부산 사업장 청소 및 에어컨 분해청소 | 문의 010-7246-5626</div>
+
+<header>
+  <div class="nav">
+    <a class="brand" href="/">퍼펙트케어</a>
+    <nav>
+      <a href="/">홈</a>
+      <a href="/services/">서비스</a>
+      <a href="/works/">작업사례</a>
+      <a href="/about/">회사소개</a>
+      <a href="/contact/">문의</a>
+    </nav>
+  </div>
 </header>
-<main id="main"><section class="page-hero"><div class="container">
-<div class="breadcrumb"><a href="/">홈</a> / 퍼펙트케어 소개</div>
-<h1>퍼펙트케어 소개</h1><p class="lead">퍼펙트케어는 사업장 정기청소를 중심으로 사무실, 화장실, 병원, 학원, 카페, 음식점, 상가 등의 공간을 관리하며 에어컨 분해청소도 제공합니다.</p></div></section>
-<section class="section"><div class="container content"><h2>현장에 맞춘 관리</h2><p>청소 범위와 관리주기는 현장 규모, 이용환경, 방문객, 운영시간과 오염 정도를 확인한 뒤 안내합니다.</p><h2>작업 원칙</h2><p>친환경 세제를 사용하고 청소 관련 교육을 받은 전문 직원이 현장에서 직접 작업합니다.</p><h2>서비스 지역</h2><p>김해·양산·부산 지역을 중심으로 상담합니다.</p></div></section></main>
-<section class="section"><div class="container"><div class="cta">
-<div><h2>현장에 맞는 청소 범위를 상담해드립니다.</h2><p>사업장 규모, 이용량, 오염도와 필요한 관리 범위를 확인한 뒤 안내합니다.</p></div>
-<a class="btn btn-outline" href="tel:01072465626">010-7246-5626</a>
-</div></div></section>
-<footer class="footer"><div class="container">
-<div class="footer-grid">
-<div><h3>퍼펙트케어</h3><p>양산·김해·부산을 중심으로 사업장 정기청소와 에어컨 분해청소를 진행합니다.</p></div>
-<div><h3>서비스</h3><p><a href="/services/regular-cleaning/">정기청소</a><br><a href="/services/office-cleaning/">사무실청소</a><br><a href="/services/restroom-cleaning/">화장실청소</a><br><a href="/services/aircon-cleaning/">에어컨 분해청소</a></p></div>
-<div><h3>바로가기</h3><p><a href="/works/">작업사례</a><br><a href="/areas/yangsan/">양산</a><br><a href="/contact/">문의</a></p></div>
-</div>
-<div class="small">© 2026 PERFECT CARE. All rights reserved. | 전화 010-7246-5626</div>
-</div></footer>
-<a class="float-call" href="tel:01072465626">전화상담</a>
-<script src="/assets/js/main.js" defer></script>
-</body></html>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">PERFECT CARE BUSINESS CLEANING</div>
+    <h1>양산·김해·부산 청소업체<br>퍼펙트케어</h1>
+    <p>
+      퍼펙트케어는 양산·김해·부산을 중심으로 사업장 정기청소를 진행하는 전문 청소업체입니다.
+      사무실청소, 화장실청소, 병원청소, 학원청소, 계단청소를 1차 핵심 서비스로 운영하며
+      공장, 상가, 카페, 헬스장, 스크린골프장, 샤워실과 목욕탕 등 다양한 사업장 환경에 맞춰 관리 범위를 상담합니다.
+      모든 견적은 현장을 직접 확인하는 무료 방문견적을 기준으로 안내합니다.
+    </p>
+    <div class="tags">
+      <span class="tag">양산정기청소</span>
+      <span class="tag">김해정기청소</span>
+      <span class="tag">부산정기청소</span>
+      <span class="tag">사무실청소</span>
+      <span class="tag">화장실청소</span>
+      <span class="tag">병원청소</span>
+      <span class="tag">학원청소</span>
+      <span class="tag">계단청소</span>
+    </div>
+  </div>
+</section>
+
+<main>
+  <section class="section">
+    <h2>퍼펙트케어가 집중하는 사업장 청소</h2>
+    <p>
+      사업장 청소는 공간의 크기만으로 관리 횟수를 정하기 어렵습니다.
+      직원 수, 방문객 수, 운영시간, 바닥 오염 정도, 화장실 이용량, 공용공간 범위와 업종 특성을 함께 확인해야
+      실제 이용환경에 맞는 관리가 가능합니다. 퍼펙트케어는 현장 상태를 먼저 확인한 뒤 필요한 범위와 주기를 안내합니다.
+    </p>
+
+    <div class="service-grid">
+      <a class="service" href="/areas/gimhae/regular-cleaning/">
+        <strong>정기청소</strong>
+        <span>사무실·공장·학원·병원·상가 등 사업장 상황에 따라 주 1회부터 주 6회까지 상담합니다.</span>
+      </a>
+      <a class="service" href="/areas/gimhae/regular-cleaning/restroom/">
+        <strong>화장실청소</strong>
+        <span>양변기, 소변기, 세면대, 거울, 바닥과 공용동선까지 이용량에 맞춰 관리합니다.</span>
+      </a>
+      <a class="service" href="/areas/yangsan/office-cleaning/">
+        <strong>사무실청소</strong>
+        <span>업무공간, 회의실, 탕비실, 출입구, 바닥과 공용공간을 정기적으로 관리합니다.</span>
+      </a>
+      <a class="service" href="/areas/yangsan/hospital-cleaning/">
+        <strong>병원청소</strong>
+        <span>대기공간과 진료공간, 바닥, 화장실 등 병원 이용환경에 맞춰 관리범위를 설정합니다.</span>
+      </a>
+      <a class="service" href="/works/yangsan-jeungsan-academy-cleaning/">
+        <strong>학원청소</strong>
+        <span>교실, 책상 아래, 복도, 상담공간과 공용동선을 학생 이동량에 맞춰 관리합니다.</span>
+      </a>
+      <a class="service" href="/areas/yangsan/stair-common-area-cleaning/">
+        <strong>계단청소</strong>
+        <span>계단, 난간, 복도, 출입구처럼 먼지가 반복 유입되는 공용부를 정기적으로 관리합니다.</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>양산·김해·부산 지역별 청소 상담</h2>
+    <p>
+      퍼펙트케어는 지역마다 사업장 형태와 상권이 다른 점을 고려해 상담합니다.
+      공단과 산업단지는 공장·사무실·화장실 관리 비중이 높고,
+      상업지역과 생활권은 학원, 병원, 카페, 상가 등 이용객이 많은 공간의 정기관리가 중요합니다.
+    </p>
+
+    <div class="grid3">
+      <div class="card">
+        <h3>양산 청소업체</h3>
+        <p>
+          물금·증산·범어·사송 등 상업·생활권과 산막공단·어곡공단·석계산단 등 사업장 밀집지역을 중심으로
+          양산정기청소, 양산사무실청소, 양산화장실청소, 병원·학원·계단청소 상담을 진행합니다.
+        </p>
+        <p style="margin-top:12px"><a href="/areas/yangsan/">양산 청소 서비스 보기 →</a></p>
+      </div>
+
+      <div class="card">
+        <h3>김해 청소업체</h3>
+        <p>
+          주촌·대동·상동·진례·한림·생림 등 공단권과 내외동·삼계동·장유·율하·진영 등 상업·업무지역을 중심으로
+          김해정기청소, 사무실·화장실·상가청소를 상담합니다.
+        </p>
+        <p style="margin-top:12px"><a href="/areas/gimhae/">김해 청소 서비스 보기 →</a></p>
+      </div>
+
+      <div class="card">
+        <h3>부산 청소업체</h3>
+        <p>
+          부산은 강서구·명지·녹산·미음 등 산업·상업지역과 동래·해운대·사상·서면 등 업무·생활권을 중심으로
+          부산정기청소와 사무실·화장실·상가청소 상담을 확대하고 있습니다.
+        </p>
+        <p style="margin-top:12px"><a href="/areas/busan/">부산 청소 서비스 보기 →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>공단과 상업지역의 청소는 관리 포인트가 다릅니다</h2>
+    <div class="region">
+      <h3>공장·사무실·화장실이 많은 공단지역</h3>
+      <p>
+        양산 산막·어곡·석계, 김해 주촌·대동·상동·진례·한림·생림 등 사업장이 밀집한 지역은
+        직원 출퇴근, 작업복, 외부 분진과 장비 이동으로 바닥과 공용공간 오염이 반복되는 경우가 많습니다.
+        사무실과 화장실을 함께 관리하거나 사업장 규모에 따라 정기청소 범위를 나누는 방식이 효율적입니다.
+      </p>
+    </div>
+    <div class="region">
+      <h3>학원·병원·상가가 많은 생활권과 상업지역</h3>
+      <p>
+        양산 물금·증산, 김해 내외동·삼계동·장유·율하·진영, 부산 명지·동래·해운대 등은
+        방문객과 이용객 이동이 많아 출입구, 복도, 화장실과 바닥의 청결상태가 공간의 첫인상에 큰 영향을 줍니다.
+        운영시간과 이용량에 맞춰 관리시간과 청소 범위를 조정하는 것이 중요합니다.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>현장을 확인하고 필요한 범위만 정합니다</h2>
+    <div class="process">
+      <div class="step"><b>STEP 01</b><strong>현장 상담</strong><span>업종과 공간 규모, 현재 관리 상태와 필요한 청소 범위를 확인합니다.</span></div>
+      <div class="step"><b>STEP 02</b><strong>무료 방문견적</strong><span>현장을 직접 확인하고 이용량과 오염 정도를 기준으로 작업 범위를 정합니다.</span></div>
+      <div class="step"><b>STEP 03</b><strong>관리주기 결정</strong><span>정기청소는 현장 상황에 따라 주 1회부터 주 6회까지 상담 가능합니다.</span></div>
+      <div class="step"><b>STEP 04</b><strong>작업·확인</strong><span>교육받은 직원이 현장 기준에 맞춰 작업하고 필요한 부분을 확인하며 마무리합니다.</span></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>정기청소부터 에어컨 분해청소까지</h2>
+    <p>
+      퍼펙트케어는 정기청소뿐 아니라 에어컨 분해청소도 함께 진행합니다.
+      시스템에어컨 1way·4way, 벽걸이, 스탠드, 2in1 등 기종에 맞춰 분해 후 친환경 세제와 고압세척을 사용하고
+      건조·조립·작동 확인까지 진행합니다. 사업장 정기청소와 에어컨청소를 한 업체에 상담하고 싶은 경우에도 현장 상황에 맞춰 안내합니다.
+    </p>
+
+    <div class="stats">
+      <div class="stat">
+        <strong>10,000대+</strong>
+        <span>에어컨 분해·조립 누적 작업 경험을 바탕으로 다양한 기종의 구조를 확인하며 작업합니다.</span>
+      </div>
+      <div class="stat">
+        <strong>주 1~6회</strong>
+        <span>사업장 규모와 직원 수, 방문객 수, 운영시간과 오염도에 따라 정기청소 주기를 상담합니다.</span>
+      </div>
+      <div class="stat">
+        <strong>무료 방문견적</strong>
+        <span>전화만으로 단정하기보다 현장을 직접 확인하고 필요한 범위와 관리주기를 안내합니다.</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>2차로 확대하는 전문 청소 분야</h2>
+    <p>
+      기본적인 정기청소, 사무실청소, 화장실청소, 병원청소, 학원청소, 계단청소를 중심으로
+      실제 작업사례가 쌓이는 업종부터 목욕탕청소, 헬스장청소, 샤워실청소, 스크린골프장청소, 상가청소까지
+      전문 작업사례를 확대하고 있습니다.
+    </p>
+    <div class="tags">
+      <span class="tag">목욕탕청소</span>
+      <span class="tag">헬스장청소</span>
+      <span class="tag">샤워실청소</span>
+      <span class="tag">스크린골프장청소</span>
+      <span class="tag">상가청소</span>
+      <span class="tag">카페청소</span>
+      <span class="tag">공장청소</span>
+      <span class="tag">유리창청소</span>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>실제 작업사례로 확인하세요</h2>
+    <p>
+      퍼펙트케어 홈페이지의 작업사례에는 실제 현장에서 촬영한 사진과 함께
+      공간별 오염 상태, 작업 과정, 관리 포인트와 작업 후 상태를 자세히 기록하고 있습니다.
+      지역과 업종별 실제 작업내용은 아래 작업사례 페이지에서 확인할 수 있습니다.
+    </p>
+    <div class="region-links">
+      <a href="/works/">전체 작업사례</a>
+      <a href="/areas/yangsan/">양산 청소</a>
+      <a href="/areas/gimhae/">김해 청소</a>
+      <a href="/areas/busan/">부산 청소</a>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>양산·김해·부산 청소 무료 방문견적</h2>
+    <p>
+      정기청소, 사무실청소, 화장실청소, 병원청소, 학원청소, 계단청소를 비롯해
+      공장·상가·헬스장·스크린골프장 등 사업장 청소가 필요하다면 현장 상태를 먼저 확인하겠습니다.
+    </p>
+    <div class="buttons">
+      <a class="btn primary" href="/contact/">무료 방문견적 요청</a>
+      <a class="btn ghost" href="tel:01072465626">010-7246-5626</a>
+    </div>
+  </section>
+</main>
+
+<footer>© 2026 PERFECT CARE. All rights reserved.</footer>
+</body>
+</html>
